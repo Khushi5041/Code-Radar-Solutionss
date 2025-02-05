@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     char ch;
-    scnaf("%s", &ch);
-    printf("ASCII Value: %s", ch);
+    scnaf("%c", &ch);
+    printf("ASCII Value: %d, ch);
     return 0;
 }
